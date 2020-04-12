@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/sign_up.css">
+</head>
+<body>
+    <article class="signup-form">
+        <form class="flex-container-v "action="/routes/register" method="POST">
+            <header class="align-center"><h1>ایجاد حساب کاربری جدید</h1></header>
+            <label for="phone-number">: شماره موبایل</label>
+            <input type="text" id="phone-number" name="phone" maxlength="11">
+            <label for="pass">: کلمه عبور</label>
+            <input type="password" id="pass" name="password" maxlength="15">
+            <label for="re-pass">: تکرار کلمه عبور</label>
+            <input type="password" id="re-pass"  name="repassword" maxlength="15">
+            <input id="submit-btn" type="submit" value="تایید">
+        </form>
+    </article>  
+</body>
+</html>

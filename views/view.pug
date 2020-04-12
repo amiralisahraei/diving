@@ -1,0 +1,10 @@
+- var a = "blue";
+html
+    head
+        style
+            include ../public/style.css
+    body.main
+        form(action="../node.js/post" method="POST")
+            input(type="text" placeholder="enter_name" name="name")
+            input(type="text" placeholder="enter_password" name="password")
+            input(type="submit" name="submit")

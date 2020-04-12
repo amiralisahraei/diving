@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/sign_in.css">
+</head>
+<body>
+    <article class="signin-form">
+        <form class="flex-container-v" action="/routes/login" method="POST">
+            <header class="align-center"><h2>ورود به حساب کاربری</h2></header>
+            <br>
+            <label for="username">: ایمیل یا شماره تماس </label>
+            <input  type="text" maxlength="11" id="username" name="phone">
+            <label for="password"> : کلمه عبور </label>
+            <input  type="password" maxlength="15" id="password" name="password"> 
+            <input id="submit-btn" class="align-center" type="submit" value="ورود">
+            <a class="align-center" href="#">فراموشی کلمه عبور</a>
+            <a class="align-center" href="#">حساب کاربری نداری؟ ثبت نام کن</a>
+        </form>
+    </article>
+</body>
+</html>
